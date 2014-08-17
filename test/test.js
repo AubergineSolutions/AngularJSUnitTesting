@@ -19,7 +19,7 @@ describe('titleCtrl', function()
 	{
 		expect($scope.title).toBe("Hello Friends!");
 	});
-	it('By Clicking the button changes the title', function()
+	it('Clicking the button changes the title', function()
 	{
 		$scope.changeIt();
 		expect($scope.title).toBe("How are you?");
